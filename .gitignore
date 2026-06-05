@@ -1,65 +1,66 @@
-# Compiled class files
-*.class
-
-# Log files
-*.log
-logs/
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs
-hs_err_pid*
-replay_pid*
-
-# Maven
+.env
+.env.*
+!.env.example
+node_modules/
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-
-# IDE - IntelliJ IDEA
+dist/
+build/
 .idea/
-*.iws
-*.iml
-*.ipr
-out/
-
-# IDE - Eclipse
-.classpath
-.project
-.settings/
-bin/
-
-# IDE - VS Code
 .vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Database
-*.db
-*.sqlite
-
-# Uploads (user generated content)
+.gradle/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.trae/
+tmp/
+temp/
+logs/
+log/
 uploads/
-!uploads/.gitkeep
+coverage/
+docs/
+paper_figures/
+artifacts/
+dataset/
+datasets/
+data/
+bin/
+tools/
+*.log
+*.tmp
+*.bak
+*.bkp
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.exe
+*.dll
+*.lib
+*.npy
+*.npz
+*.pth
+*.pt
+*.weights
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.dat
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.doc
+*.docx
+*.pdf
+*.drawio
